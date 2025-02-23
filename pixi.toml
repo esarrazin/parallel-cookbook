@@ -1,0 +1,18 @@
+[project]
+authors = ["Emmanuelle Sarrazin <emmanuelle.sarrazin@cnes.fr>"]
+channels = ["conda-forge"]
+description = "Parallel cookbook"
+name = "parallel-cookbook"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = "3.12.*"
+pip = ">=25.0,<26"
+jupyterlab = ">=4.3.5,<5"
+numba = ">=0.61.0,<0.62"
+numpy = ">=2.1.3,<3"
+scikit-learn = ">=1.6.1,<2"
+
